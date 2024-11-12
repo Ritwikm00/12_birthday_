@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Happy Birthday!</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <img src="photo.jpg" alt="Birthday Person" class="profile-pic">
+        <h1 class="heading">🎉 Happy Birthday! 🎂</h1>
+        <p class="message">Wishing you a day filled with love and joy!</p>
+        
+        <!-- Audio Player -->
+        <audio id="birthday-audio" src="birthday-song.mp3"></audio>
+
+        <!-- Button to play the song -->
+        <button id="play-button" onclick="playSong()">Play Birthday Song 🎵</button>
+
+        <button id="reveal-button" onclick="showSurprise()">Click for a surprise 🎁</button>
+        <p id="surprise-text" class="hidden">🎊 You are amazing! 🎊</p>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
